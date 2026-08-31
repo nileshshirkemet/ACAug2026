@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+void Swap(int, int);
+
+void Swap(int num1, int num2)
+{
+	int temp;
+	temp = num1;
+	num1 = num2;
+	num2 = temp;
+
+	printf("Value of num1 / num2 in swap function is %d / %d\n", num1, num2);
+}
+
+
+
+int main()
+{
+   int num1, num2;
+
+   printf("Enter values for number 1 & 2 \n");
+   scanf("%d %d", &num1, &num2);
+
+   printf("Values of num1 & num2 before calling Swap are %d / %d\n", num1, num2);
+   Swap(num1, num2);
+   printf("Values of num1 & num2 after calling Swap are %d / %d\n", num1, num2);
+
+   return 0;
+
+}
