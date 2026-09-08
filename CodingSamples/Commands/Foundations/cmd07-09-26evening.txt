@@ -1,0 +1,39 @@
+    1  clear
+    2  pwd
+    3  code proceduretest2.s 
+    4  as proceduretest2.s 
+    5  ld -o program a.out runtime.o dijkstra.o
+    6  ./program 
+    7  code hllangtest1.c
+    8  cc -S hllangtest1.c 
+    9  ll
+   10  as hllangtest1.s
+   11  ld -o program a.out runtime.o 
+   12  ./program 
+   13  cc -S hllangtest1.c 
+   14  as hllangtest1.s
+   15  ld -o program a.out runtime.o 
+   16  ./program 
+   17  cc -S hllangtest1.c 
+   18  ld -o program a.out runtime.o 
+   19  cc -S hllangtest1.c 
+   20  as hllangtest1.s
+   21  ld -o program a.out runtime.o 
+   22  ./program 
+   23  cc -S hllangtest1.c 
+   24  as hllangtest1.s
+   25  ld -o program a.out runtime.o 
+   26  code hllangtest2.py
+   27  python hllangtest2.py 
+   28  cd ..
+   29  mkdir Syntax
+   30  cd Syntax/
+   31  code variabletest.cpp
+   32  c++ -o program variabletest.cpp 
+   33  ll
+   34  ./program 
+   35  c++ -o program variabletest.cpp 
+   36  ./program 
+   37  echo $?
+   38  pwd
+   39  history > ~/Course/Commands/Foundations/cmd07-09-26evening.txt 

@@ -1,0 +1,10 @@
+    1  cd Foundations/Basics/
+    2  code branchingtest1.s
+    3  ./run branchingtest1.s 
+    4  code branchingtest2.s 
+    5  as branchingtest2.s 
+    6  ld -o program a.out runtime.o 
+    7  ./program 
+    8  code branchingtest1.s 
+    9  cd ..
+   10  history > cmd05-09-26evening.txt 

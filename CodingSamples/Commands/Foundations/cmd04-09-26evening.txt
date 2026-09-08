@@ -1,0 +1,58 @@
+    1  clear
+    2  cd Course/
+    3  ls
+    4  mkdir Foundations
+    5  cd Foundations/
+    6  mkdir Basics
+    7  cd Basics/
+    8  wget -qO- iitdcac.met.edu/shared/native/asmrt-x64.tar.gz | tar x
+    9  wget -qO- iitddac.met.edu/shared/native/asmrt-x64.tar.gz | tar x
+   10  wget -qO- iitdac.met.edu/shared/native/asmrt-x64.tar.gz | tar x
+   11  ls
+   12  code variabletest1.s
+   13  ll
+   14  as -o hello.o hello.s
+   15  as -o variabletest1.o variabletest1.s 
+   16  ll
+   17  ld -o variabletest1 variabletest1.o runtime.o 
+   18  ll
+   19  ./variabletest1 
+   20  as -o variabletest1.o variabletest1.s 
+   21  ./variabletest1 
+   22  ld -o variabletest1 variabletest1.o runtime.o 
+   23  ./variabletest1 
+   24  cat variabletest1.o
+   25  as -o variabletest1.o variabletest1.s 
+   26  ld -o variabletest1 variabletest1.o runtime.o 
+   27  as -o variabletest1.o variabletest1.s 
+   28  ld -o variabletest1 variabletest1.o runtime.o 
+   29  ./variabletest1 
+   30  cd ..
+   31  ./variabletest1 
+   32  ./Basics/variabletest1 
+   33  cd Basics/
+   34  ll
+   35  ld -o variabletest1 variabletest1.o 
+   36  as -o variabletest1.o variabletest1.s 
+   37  ld -o variabletest1 variabletest1.o runtime.o 
+   38  ./variabletest1 
+   39  as -o variabletest1.o variabletest1.s 
+   40  ld -o variabletest1 variabletest1.o runtime.o 
+   41  ./variabletest1 
+   42  as -o variabletest1.o variabletest1.s 
+   43  ld -o variabletest1 variabletest1.o runtime.o 
+   44  ./variabletest1 
+   45  as -o variabletest1.o variabletest1.s 
+   46  ld -o variabletest1 variabletest1.o runtime.o 
+   47  ./variabletest1 
+   48  as -o variabletest1.o variabletest1.s 
+   49  ld -o variabletest1 variabletest1.o runtime.o 
+   50  ./variabletest1 
+   51  as -o variabletest1.o variabletest1.s 
+   52  ld -o variabletest1 variabletest1.o runtime.o 
+   53  ./variabletest1 
+   54  ./run variabletest1.s
+   55  pwd
+   56  cd ..
+   57  ls
+   58  history > cmd09-09-26evening.txt

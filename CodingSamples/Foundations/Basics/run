@@ -1,0 +1,11 @@
+prog="${1%.s}"
+as -o $prog.o $prog.s
+if [ $? -eq 0 ]; then
+	ld -o $prog $prog.o runtime.o ${@:2}
+	if [ $? -eq 0 ]; then
+		./$prog
+		rm $prog
+	fi
+	rm $prog.o
+fi
+

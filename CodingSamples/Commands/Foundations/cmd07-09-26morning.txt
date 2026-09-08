@@ -1,0 +1,16 @@
+    1  clear
+    2  cp branchingtest1.s proceduretest1.s
+    3  code .
+    4  code proceduretest1.s 
+    5  as proceduretest1.s 
+    6  ld -o program a.out runtime.o 
+    7  ./program 
+    8  code dijkstra.s
+    9  as -o dijkstra.o dijkstra.s 
+   10  ll
+   11  code proceduretest2.s 
+   12  as proceduretest2.s 
+   13  ld -o program a.out runtime.o 
+   14  ld -o program a.out runtime.o dijkstra.o
+   15  ./program 
+   16  ls
