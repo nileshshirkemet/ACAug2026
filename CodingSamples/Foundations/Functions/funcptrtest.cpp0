@@ -1,0 +1,41 @@
+#include <cstdio>
+
+double Expense(int year)
+{
+    return 5 * year - 1;
+}
+
+double Income(int year)
+{
+    return year * year + 1;
+}
+
+double ExpenseSum(int count)
+{
+    double total = 0;
+    for(int i = 1; i <= count; ++i)
+    {
+        total += Expense(i);
+    }
+    return total;
+}
+
+double IncomeSum(int count)
+{
+    double total = 0;
+    for(int i = 1; i <= count; ++i)
+    {
+        total += Income(i);
+    }
+    return total;
+}
+
+int main(void)
+{
+    int n;
+    printf("Number of years: ");
+    scanf("%d", &n);
+
+    printf("Total expense = %.2lf\n", ExpenseSum(n));
+    printf("Total income  = %.2lf\n", IncomeSum(n));
+}
