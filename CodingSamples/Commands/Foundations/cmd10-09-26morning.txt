@@ -1,0 +1,14 @@
+    1  clear
+    2  cd Functions/
+    3  code ptrtypetest.cpp
+    4  c++ -o program ptrtypetest.cpp 
+    5  ./program 
+    6  c++ -o program ptrtypetest.cpp 
+    7  ./program 
+    8  c++ -o program ptrtypetest.cpp 
+    9  ./program 
+   10  cp ptrtypetest.cpp reftypetest.cpp
+   11  code reftypetest.cpp 
+   12  c++ -o program reftypetest.cpp 
+   13  ./program 
+   14  history > ~/Course/Commands/Foundations/cmd10-09-26morning.txt 

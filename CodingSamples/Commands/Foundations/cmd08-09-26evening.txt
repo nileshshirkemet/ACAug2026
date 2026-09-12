@@ -1,0 +1,15 @@
+    1  c++ -o program variabletest.cpp 
+    2  ./program 
+    3  c++ -o program variabletest.cpp 
+    4  ./program 
+    5  code arraytest.cpp
+    6  c++ -o program  arraytest.cpp 
+    7  ./program 
+    8  cp variabletest.cpp ifelsetest.cpp
+    9  code ifelsetest.cpp 
+   10  c++ -o program ifelsetest.cpp 
+   11  ./program 
+   12  code switchtest.cpp
+   13  c++ -o program switchtest.cpp 
+   14  ./program 
+   15  history > ~/Course/Commands/Foundations/cmd08-09-26evening.txt 

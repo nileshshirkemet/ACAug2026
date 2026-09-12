@@ -1,0 +1,23 @@
+    1  clear
+    2  cd ../Syntax/
+    3  ll
+    4  code dowhiletest.cpp
+    5  c++ -o program dowhiletest.cpp 
+    6  ./program 
+    7  code whiletest.cpp
+    8  c++ -o program  whiletest.cpp 
+    9  ./program 
+   10  code fortest.cpp
+   11  c++ fortest.cpp 
+   12  c++ -o program fortest.cpp 
+   13  ./program 
+   14  cd ..
+   15  mkdir Functions
+   16  cd Functions/
+   17  code funccalltest1.cpp
+   18  c++ -o program funccalltest1.cpp 
+   19  ./program 
+   20  c++ -o program funccalltest1.cpp 
+   21  objdump -t program 
+   22  c++filt _Z8Interestdif
+   23  history > ~/Course/Commands/Foundations/cmd09-09-26morning.txt 

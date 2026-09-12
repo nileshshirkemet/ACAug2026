@@ -1,0 +1,23 @@
+    1  code funcptrtest.cpp
+    2  c++ -o program funcptrtest.cpp 
+    3  ./program 
+    4  cp funcptrtest.cpp funcptrtest.cpp0
+    5  code funcptrtest.cpp
+    6  c++ -o program funcptrtest.cpp 
+    7  ./program 
+    8  code funcptrtest.cpp0
+    9  code exceptiontest.cpp
+   10  c++ -o program exceptiontest.cpp 
+   11  ./program 
+   12  c++ -o program exceptiontest.cpp 
+   13  ./program 
+   14  c++ -o program exceptiontest.cpp 
+   15  ./program 
+   16  c++ -o program exceptiontest.cpp 
+   17  ./program 
+   18  c++ -o program exceptiontest.cpp 
+   19  ./program 
+   20  ls
+   21  code funcptrtest.cpp
+   22  code funcptrtest.cpp0
+   23  history > ~/Course/Commands/Foundations/cmd10-09-26evening.txt 

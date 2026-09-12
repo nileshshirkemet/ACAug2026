@@ -1,0 +1,19 @@
+    1  clear
+    2  ls
+    3  cd ..
+    4  ls
+    5  cd Functions/
+    6  clear
+    7  code banners.h
+    8  code banners.cpp
+    9  c++ -c banners.cpp 
+   10  cp funccalltest1.cpp moduletest.cpp
+   11  code moduletest.cpp 
+   12  c++ -o program moduletest.cpp banners.o
+   13  ./program 
+   14  cd ..
+   15  ls
+   16  ls Commands/
+   17  ls Commands/Foundations/
+   18  cd Commands/Foundations/
+   19  history > cmd11-09-26morning.txt 

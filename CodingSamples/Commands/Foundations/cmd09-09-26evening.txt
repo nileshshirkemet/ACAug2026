@@ -1,0 +1,40 @@
+    1  cd Functions/
+    2  cp funccalltest1.cpp funccalltest2.cpp 
+    3  code funccalltest2.cpp 
+    4  c++ -o program funccalltest2.cpp 
+    5  ./program 
+    6  c++ -o program funccalltest2.cpp 
+    7  ./program 
+    8  code computing.cpp
+    9  c++ computing.cpp 
+   10  c++ -c computing.cpp 
+   11  ls
+   12  cat computing.cpp
+   13  cat computing.o
+   14  objdump -t computing.o
+   15  code extfunctest1.cpp
+   16  c++ -o program extfunctest1.cpp 
+   17  c++ -o program extfunctest1.cpp computing.o
+   18  cat computing.cpp
+   19  code computing.cpp 
+   20  c++ -o program extfunctest1.cpp computing.o
+   21  objdump -t computing.o
+   22  c++ -c computing.cpp 
+   23  objdump -t computing.o
+   24  c++ -o program extfunctest1.cpp computing.o
+   25  ./program 
+   26  c++ -o program extfunctest1.cpp computing.o
+   27  ./program 
+   28  c++ -c computing.cpp 
+   29  objdump -t computing.o
+   30  cp ../Basics/dijkstra.o .
+   31  objdump -t dijkstra.o 
+   32  code extfunctest2.cpp 
+   33  c++ -o program extfunctest2.cpp 
+   34  c++ -o program extfunctest2.cpp dijkstra.o 
+   35  ./program 
+   36  c++ -c computing.cpp 
+   37  ls
+   38  code funccalltest2.cpp
+   39  ls
+   40  history > ~/Course/Commands/Foundations/cmd09-09-26evening.txt 
