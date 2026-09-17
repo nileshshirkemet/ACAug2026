@@ -1,0 +1,20 @@
+    1  clear
+    2  c++ -c boards1.cpp
+    3  c++ -o program adttest.cpp boards1.o
+    4  ./program 
+    5  c++ -o program adttest.cpp boards1.o
+    6  20
+    7  c++ -o program adttest.cpp boards1.o
+    8  ./program 
+    9  cp boards1.h boards2.h
+   10  cp boards1.cpp boards2.cpp
+   11  code boards2.*
+   12  cp adttest.cpp rttitest2.cpp
+   13  code rttitest2.cpp 
+   14  c++ -c boards2.cpp 
+   15  vi adttest.cpp 
+   16  c++ -o program rttitest2.cpp boards2.o
+   17  ./program 
+   18  c++ -o program adttest.cpp boards1.o
+   19  ./program 
+   20  history > ~/Course/Commands/Foundations/cmd16-09-26morning.txt 

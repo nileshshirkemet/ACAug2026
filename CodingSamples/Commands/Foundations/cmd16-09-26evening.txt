@@ -1,0 +1,30 @@
+    1  cp boards2.h boards3.h
+    2  cp boards2.cpp boards3.cpp
+    3  code boards3.*
+    4  cp rttitest2.cpp mivitest.cpp
+    5  code mivitest.cpp 
+    6  c++ -c boards3.cpp
+    7  c++ -o program mivitest.cpp boards3.o
+    8  ./program 
+    9  c++ -o program mivitest.cpp boards3.o
+   10  ./program 
+   11  cd ..
+   12  mkdir Templates
+   13  cd Templates
+   14  code functemplttest.cpp
+   15  mv functemplttest.cpp functmplttest1.cpp
+   16  code functmplttest1.cpp 
+   17  c++ -o program functmplttest1.cpp 
+   18  ./program 
+   19  c++ -o program functmplttest1.cpp 
+   20  ./program 
+   21  cp functmplttest1.cpp functmplttest1.cpp0 
+   22  objdump -t program 
+   23  c++ -c functmplttest1.cpp
+   24  objdump functmplttest1.o
+   25  objdump -t functmplttest1.o
+   26  objdump -t functmplttest1.o | Select
+   27  objdump -t functmplttest1.o > temp.txt
+   28  notepad.exe temp.txt
+   29  code functmplttest1.cpp0
+   30  history > ~/Course/Commands/Foundations/cmd16-09-26evening.txt 

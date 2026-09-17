@@ -1,0 +1,43 @@
+    1  ls
+    2  clear
+    3  pwd
+    4  ls
+    5  cd Classes/
+    6  clear
+    7  pwd
+    8  ./program 
+    9  c++ -o program objreftest.cpp 
+   10  ./program 
+   11  ulimit -s
+   12  ulimit -s 10240
+   13  ulimit -s
+   14  code objptrtest.cpp
+   15  c++ -o program objptrtest.cpp 
+   16  ./program 
+   17  c++ -o program objptrtest.cpp 
+   18  ./program 
+   19  c++ -o program objptrtest.cpp 
+   20  ./program 
+   21  c++ -o program objptrtest.cpp 
+   22  ./program 
+   23  c++ -o program objptrtest.cpp 
+   24  ./program 
+   25  c++ -o program objptrtest.cpp 
+   26  ./program 
+   27  code interval1.h 
+   28  c++ -o program objptrtest.cpp 
+   29  ./program 
+   30  c++ -o program objptrtest.cpp 
+   31  ./program 
+   32  cp interval1.h interval2.h
+   33  code interval2.h 
+   34  code operovldtest.cpp
+   35  c++ -o program operovldtest.cpp 
+   36  ./program 
+   37  c++ -o program operovldtest.cpp 
+   38  ./program 
+   39  c++ -o program operovldtest.cpp 
+   40  ./program 
+   41  c++ -o program operovldtest.cpp 
+   42  ./program 
+   43  history > ~/Course/Commands/Foundations/cmd12-09-26evening.txt 

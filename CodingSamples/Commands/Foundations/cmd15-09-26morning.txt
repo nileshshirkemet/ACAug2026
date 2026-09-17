@@ -1,0 +1,19 @@
+ 1 cat Course/Foundations/Inheritance/derivedclasstest.cpp 
+ 2 exit
+ 3 exit
+ 4 cd Course/Foundations/Inheritance/
+ 5 code boxes.h derivedclasstest.cpp 
+ 6 c++ -o program derivedclasstest.cpp 
+ 7 ./program 
+ 8 c++ -o program derivedclasstest.cpp 
+ 9 ./program 
+ 10 c++ -o program derivedclasstest.cpp 
+ 11./program 
+ 12 cp derivedclasstest.cpp rttitest1.cpp
+ 13 code rttitest1.cpp 
+ 14 c++ -o program derivedclasstest.cpp 
+ 15 ./program 
+ 16 c++ -o program rttitest1.cpp 
+ 17 ./program 
+ 18 ls
+ 19 history > ~/Course/Commands/Foundations/cmd15-09-26morning.txt 

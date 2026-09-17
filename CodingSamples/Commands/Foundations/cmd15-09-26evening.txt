@@ -1,0 +1,11 @@
+    1  code boxes.h 
+    2  c++ -o program rttitest1.cpp 
+    3  ./program 
+    4  code boards1.h boards1.cpp
+    5  c++ -c boards1.cpp 
+    6  code adttest.cpp
+    7  c++ -o program adttest.cpp boards1.o
+    8  ./program 
+    9  c++ -o program adttest.cpp boards1.o
+   10  ./program 
+   11  history > ~/Course/Commands/Foundations/cmd15-09-26evening.txt 

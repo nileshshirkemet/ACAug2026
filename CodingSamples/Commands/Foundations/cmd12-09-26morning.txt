@@ -1,0 +1,30 @@
+    1  code banners2.h
+    2  cp classtest1.cpp classtest2.cpp
+    3  code classtest2.cpp 
+    4  c++ -o program classtest2.cpp 
+    5  ./program 
+    6  c++ -o program classtest2.cpp 
+    7  ./program 
+    8  code interval1.h
+    9  code objreftest.cpp
+   10  c++ -o program objreftest.cpp 
+   11  ./program 
+   12  c++ -o program objreftest.cpp 
+   13  ./program 
+   14  c++ -o program objreftest.cpp 
+   15  ./program 
+   16  c++ -o program objreftest.cpp 
+   17  ./program 
+   18  c++ -o program objreftest.cpp 
+   19  ./program 
+   20  c++ -o program objreftest.cpp 
+   21  ./program 
+   22  c++ -o program objreftest.cpp 
+   23  ./program 
+   24  c++ -o program objreftest.cpp 
+   25  ./program 
+   26  cd ..
+   27  ls
+   28  cd Commands/Foundations/
+   29  ls
+   30  history > cmd12-09-26morning.txt 

@@ -1,0 +1,43 @@
+    1  cp functmplttest1.cpp functmplttest2.cpp
+    2  code functmplttest2.cpp 
+    3  c++ -o program functmplttest2.cpp 
+    4  ./program 
+    5  c++ -o program functmplttest2.cpp 
+    6  ./program 
+    7  cp ../Classes/interval2.h interval.h
+    8  code interval.h 
+    9  c++ -o program functmplttest2.cpp 
+   10  ./program 
+   11  c++ -o program functmplttest2.cpp 
+   12  ./program 
+   13  c++ -o program functmplttest2.cpp 
+   14  ./program 
+   15  c++ -o program functmplttest2.cpp 
+   16  ./program 
+   17  c++ -o program functmplttest2.cpp 
+   18  ./program 
+   19  c++ -o program functmplttest2.cpp 
+   20  ./program 
+   21  code classtmplttest1.cpp
+   22  c++ -o program  classtmplttest1.cpp 
+   23  ./program 
+   24  c++ -o program  classtmplttest1.cpp 
+   25  ./program 
+   26  c++ -o program  classtmplttest1.cpp 
+   27  ./program 
+   28  cp classtmplttest1.cpp classtmplttest1.cpp0 
+   29  cat functmplttest1.cpp
+   30  c++ -o program  classtmplttest1.cpp 
+   31  ./program 
+   32  code classtmplttest2.cpp
+   33  c++ -o program classtmplttest2.cpp 
+   34  ./program 
+   35  c++ -o program classtmplttest2.cpp 
+   36  ./program 
+   37  c++ -o program classtmplttest2.cpp 
+   38  ./program 
+   39  c++ -o program classtmplttest2.cpp 
+   40  ./program 
+   41  c++ -o program classtmplttest2.cpp 
+   42  ./program 
+   43  history > ~/Course/Commands/Foundations/cmd17-09-26morning.txt 
