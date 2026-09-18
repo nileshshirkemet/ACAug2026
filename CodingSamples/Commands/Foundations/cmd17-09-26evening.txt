@@ -1,0 +1,22 @@
+    1  cat interval.h 
+    2  cat functmplttest2.cpp 
+    3  cat interval.h 
+    4  genctnrtest.cpp
+    5  code genctnrtest.cpp
+    6  code interval.h 
+    7  c++ -o program genctnrtest.cpp 
+    8  ./program 
+    9  c++ -o program genctnrtest.cpp 
+   10  ./program 
+   11  c++ -o program genctnrtest.cpp 
+   12  ./program 
+   13  code genalgotest.cpp
+   14  c++ -o program genalgotest.cpp 
+   15  ./program 
+   16  c++ -o program genalgotest.cpp 
+   17  ./program 
+   18  c++ -o program genalgotest.cpp 
+   19  ./program 
+   20  c++ -o program genalgotest.cpp 
+   21  ./program 
+   22  history > ~/Course/Commands/Foundations/cmd17-09-26evening.txt 

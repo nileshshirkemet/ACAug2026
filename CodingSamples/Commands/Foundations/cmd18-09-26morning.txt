@@ -1,0 +1,19 @@
+    1  code genalgotest.cpp 
+    2  c++ -o program genalgotest.cpp 
+    3  ./program 
+    4  c++ -o program genalgotest.cpp 
+    5  ./program 
+    6  c++ -o program genalgotest.cpp 
+    7  ./program 
+    8  c++ -o program genalgotest.cpp 
+    9  ./program 
+   10  c++ -o program genalgotest.cpp 
+   11  ./program 
+   12  c++ -o program genalgotest.cpp 
+   13  ./program 
+   14  code lamdaexprtest.cpp
+   15  c++ -std=c++20 -o program lamdaexprtest.cpp 
+   16  ./program 
+   17  c++ -std=c++20 -o program lamdaexprtest.cpp 
+   18  ./program 
+   19  history > ~/Course/Commands/Foundations/cmd18-09-26morning.txt 
