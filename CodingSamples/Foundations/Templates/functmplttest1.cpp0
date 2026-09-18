@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+double Select(int choice, double first, double second)
+{
+    if(choice % 2)
+        return first;
+    return second;
+}
+
+string Select(int choice, string first, string second)
+{
+    if(choice % 2)
+        return first;
+    return second;
+}
+
+int main(void)
+{
+    int s;
+    cout << "Selector: ";
+    cin >> s;
+
+    double dx = 4.25, dy = 3.75;
+    cout << "Selected double = "
+         << Select(s, dx, dy)
+         << endl;
+
+    string sx = "Monday", sy = "Tuesday";
+    cout << "Selected string = "
+         << Select(s, sx, sy)
+         << endl;
+
+}

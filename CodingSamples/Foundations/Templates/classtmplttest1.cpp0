@@ -1,0 +1,60 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class DoubleSelector
+{
+public:
+    DoubleSelector(double a, double b) : first(a), second(b)
+    {
+
+    }
+
+    double Select(int choice) const
+    {
+        if(choice % 2)
+            return first;
+        return second;
+    }
+
+private:
+    double first, second;
+};
+
+class StringSelector
+{
+public:
+    StringSelector(string a, string b) : first(a), second(b)
+    {
+
+    }
+
+    string Select(int choice) const
+    {
+        if(choice % 2)
+            return first;
+        return second;
+    }
+
+private:
+    string first, second;
+};
+
+
+int main(void)
+{
+    int s;
+    cout << "Choice: ";
+    cin >> s;
+
+    DoubleSelector ds(4.25, 3.75);
+    cout << "Selected double = "
+         << ds.Select(s)
+         << endl;
+
+    StringSelector ss("Monday", "Tuesday");
+    cout << "Selected string = "
+         << ss.Select(s)
+         << endl;
+}

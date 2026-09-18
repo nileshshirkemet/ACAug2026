@@ -1,8 +1,13 @@
 #include "interval1.h"
 #include <cstdio>
 
-double Speed(float distance, Interval duration)
+//a function should accept a class type argument by
+//reference qualified with const intead of accepting
+//it by value which requires a copy and a call to
+//destructor
+double Speed(float distance, const Interval& duration)
 {
+    //duration.Adjust(0);
     return 3.6 * distance / duration.Time();
 }
 
