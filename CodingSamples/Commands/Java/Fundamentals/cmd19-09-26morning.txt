@@ -1,0 +1,52 @@
+ 01  mkdir PrimitiveTypeTest
+ 02  cd PrimitiveTypeTest/
+ 03  mkdir demo
+ 04  cd demo/
+ 05  code .
+ 06  javac Program.java 
+ 07  ls
+ 08  java Program 
+ 09  javac Investment.java 
+ 10  javac Program.java 
+ 11  java Program 
+ 12  javac Program.java 
+ 13  java Program 25000 6
+ 14  java Program 25000 9
+ 15  java Program 200000 5
+ 16  java Program  5OOOO 10
+ 17  cd ..
+ 18  cp -r PrimitiveTypeTest/ UserDefTypeTest
+ 19  cd UserDefTypeTest/
+ 20  cd demo/
+ 21  cd ..
+ 22  mv demo/ demo1
+ 23  cd demo1/
+ 24  ls
+ 25  rm *.class
+ 26  ls
+ 27  code .
+ 28  ls
+ 29  javac -d classes Program.java 
+ 30  ls
+ 31  ls classes/
+ 32  java Program 25000 6
+ 33  java -cp classes Program 25000 6
+ 34  vi run
+ 35  bash run 25000 6
+ 36  chmod +x run 
+ 37  ./run 25000 6
+ 38  ./run 200000 5
+ 39  ls
+ 40  cd Course/
+ 41  ls
+ 42  cd Java/
+ 43  ls
+ 44  cd Fundamentals/
+ 45  ls
+ 46  cd ..
+ 47  mkdir Commands
+ 48  cd Commands/
+ 49  mkdir Fundamentals
+ 50  ls
+ 51  cd Fundamentals/
+ 52  history > cmd19-09-26morning.txt 

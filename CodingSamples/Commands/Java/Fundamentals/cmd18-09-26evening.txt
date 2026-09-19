@@ -1,0 +1,35 @@
+    1  cd ..
+    2  mkdir Java
+    3  cd Java/
+    4  mkdir -p Fundamentals/Basics
+    5  cd Fundamentals/Basics/
+    6  vi Hello.java
+    7  javac Hello.java 
+    8  ls
+    9  java Greeter 
+   10  vi Hello.java
+   11  javac Hello.java 
+   12  java Greeter 
+   13  java --version
+   14  ls
+   15  vi Greeter.class
+   16  uname -m
+   17  ssh unipro@linuxarm.km-hussain.xyz
+   18  scp Greeter.class unipro@linuxarm.km-hussain.xyz:Testing
+   19  ssh unipro@linuxarm.km-hussain.xyz
+   20  cd ..
+   21  ls
+   22  cd Commands
+   23  ls
+   24  mkdir Java
+   25  cd Java/
+   26  cd ..
+   27  ls
+   28  cd Java/
+   29  ls
+   30  cd ..
+   31  cd Commands/Java/
+   32  ls
+   33  mkdir Fundamentals
+   34  cd Fundamentals/
+   35  history >cmd18-09-26_evening.txt
