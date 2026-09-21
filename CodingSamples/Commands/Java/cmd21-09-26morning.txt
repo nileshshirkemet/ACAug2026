@@ -1,0 +1,35 @@
+    1  clear
+    2  cd Inheritance/
+    3  ls
+    4  mkdir InterfaceTest
+    5  cd InterfaceTest/
+    6  mkdir bank
+    7  cd bank/
+    8  code .
+    9  javac -d classes banking/*.java
+   10  ls classes/banking/
+   11  jar -c -f met-bank-1.0.0.jar -C classes/ .
+   12  ls
+   13  jar -t -f met-bank-1.0.0.jar 
+   14* 
+   15  cd ..
+   16  ls
+   17  cd ..
+   18  ls
+   19  cd Commands/Java/
+   20  ls
+   21  cd ..
+   22  ls
+   23  cd Java/
+   24  ls
+   25  cd Fundamentals/
+   26  ls
+   27  cd ..
+   28  mv Fundamentals/*.txt .
+   29  ls
+   30  cd Inheritance/
+   31  ls
+   32  vi cmd20-09-26morning.txt
+   33  cd ..
+   34  ls
+   35  history > cmd21-09-26morning.txt 

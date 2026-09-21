@@ -1,0 +1,35 @@
+    1  cd UserDefTypeTest/demo1/
+    2  code .
+    3  ./run 
+    4  ./run 25000 6
+    5  ./run 75000 8
+    6  cd ..
+    7  cp -r demo1/ demo2
+    8  cd demo2
+    9  code .
+   10  ./run 
+   11  ./run 25000 6
+   12  ./run 75000 8
+   13  cd ../..
+   14  cd ..
+   15  mkdir Inheritance
+   16  cd Inheritance/
+   17  mkdir SubclassTest
+   18  cd SubclassTest/
+   19  mkdir demo1
+   20  cd demo1/
+   21  touch Program.java
+   22  ls
+   23  code .
+   24  cp ../../../Basics/UserDefTypeTest/demo1/run .
+   25  javac -d classes payroll/*.java
+   26  ls classes/
+   27  javac -d classes/ Program.java 
+   28  ls classes/
+   29  ls classes/payroll/
+   30  java -cp classes Program 
+   31  ./run 
+   32  rm -r classes/
+   33  ls
+   34  ./run 
+   35  history > ~/Course/Commands/Java/Fundamentals/cmd19-09-26evening.txt 

@@ -1,0 +1,18 @@
+    1  pwd
+    2  code .
+    3  javac -d classes/ Program.java 
+    4  javap -p -c classes/Program.class 
+    5  ./run 
+    6  cd ..
+    7  mkdir demo2
+    8  cd demo2/
+    9  code .
+   10  cp ../demo1/run .
+   11  ./run 
+   12  javap java.lang.Object
+   13  ./run 
+   14  code .
+   15  pwd
+   16  history > /Course/Commands/Java/Inheritance/cmd20-09-26morning.txt
+   17  history > ~/Course/Commands/Java/Inheritance/cmd20-09-26morning.txt
+   18  history > ~/Course/Commands/Java/Fundamentals/cmd20-09-26morning.txt 
