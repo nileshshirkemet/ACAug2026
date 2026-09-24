@@ -1,6 +1,6 @@
 package banking;
 
-final class SavingsAccount extends Account{
+final class SavingsAccount extends Account implements Profitable {
     
     //a field declared with final modifier cannot 
     //be reinitialized
@@ -18,5 +18,10 @@ final class SavingsAccount extends Account{
         if(balance - amount < MIN_BAL)
             throw new InsufficientFundsException();
         balance -= amount;
+    }
+
+    public double interest(int months) {
+        float rate = balance < 25000 ? 0.03f : 0.04f;
+        return balance * rate * months / 12;
     }
 }

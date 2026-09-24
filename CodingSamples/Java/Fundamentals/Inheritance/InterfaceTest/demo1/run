@@ -1,0 +1,3 @@
+javac -cp lib/* -d classes src/**/*.java
+java -cp classes:lib/* app.Program $*
+

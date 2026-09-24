@@ -1,0 +1,29 @@
+class Investment {
+
+    private final double installment;
+
+    private final int years;
+
+    public Investment(double installment, int years) {
+        this.installment = installment;
+        this.years = years;
+    }
+
+    public final double installment() {
+        return installment;
+    }
+
+    public final int years() {
+        return years;
+    }
+
+    public double futureValueForSafeScheme() {
+        float i = years < 5 ? 0.06f : 0.07f;
+        return (installment / i) * (Math.pow(1 + i, years) - 1);
+    }
+
+    public double futureValueForRiskyScheme() {
+        float i = 0.08f + (years / 3) * 0.005f; 
+        return (installment / i) * (Math.pow(1 + i, years) - 1);
+    }
+}
