@@ -1,0 +1,16 @@
+ 1  pwd
+ 2  cd TypeParameterTest/demo1/
+ 3  code .
+ 4  cd ..
+ 5  mkdir demo2
+ 6  cd demo2/
+ 7  cp ../demo1/Interval.java 
+ 8  cp ../demo1/Interval.java .
+ 9  cp ../demo1/run .
+ 10 code .
+ 11 javac -d classes SimpleStack.java 
+ 12 ls classes/
+ 13 ./run 
+ 14 cd Course/Java/Fundamentals/Generic/TypeParameterTest/demo2
+ 15 code .
+ 16 history > ~/Course/Commands/Java/Fundamentals/cmd23-09-26morning.txt 

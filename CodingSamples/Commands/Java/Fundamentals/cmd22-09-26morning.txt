@@ -1,0 +1,35 @@
+    1  cd bank/
+    2  ls
+    3  javac -o classes/ banking/*.java
+    4  javac -d classes/ banking/*.java
+    5  jar -c -f met-bank-2.0.0.jar -C classes/ .
+    6  ls
+    7  cd ../demo1/
+    8  rm lib/met-bank-1.0.0.jar 
+    9  cp ../bank/met-bank-2.0.0.jar lib/
+   10  code .
+   11  ./run 3000
+   12  ./run
+   13  vi appinfo.txt
+   14  jar -c -f bank-app.jar -m appinfo.txt -C classes/ app
+   15  ls
+   16  java -jar bank-app.jar 4000
+   17  java -jar bank-app.jar
+   18  cd ..
+   19  mkdir demo2
+   20  cd demo2
+   21  code .
+   22  javac -d classes Program.java 
+   23  javac -d classes taxation/*.java
+   24  javap classes/taxation/TaxPayer.class 
+   25  cp ../../SubclassTest/demo1/run .
+   26  ./run Jack 45
+   27  ./run Jill 6
+   28  ./run Jim 32
+   29  ./run Jack 45
+   30  ./run Jill 6
+   31  ./run Jim 32
+   32  ./run Jack 45
+   33  ./run Jill 6
+   34  ./run Jim 32
+   35  history > ~/Course/Commands/Java/Fundamentals/cmd22-09-26morning.txt 

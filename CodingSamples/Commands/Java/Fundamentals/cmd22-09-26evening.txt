@@ -1,0 +1,31 @@
+    1  ls
+    2  mkdir Generic
+    3  cd Generic/
+    4  mkdir TypeParameterTest
+    5  cd TypeParameterTest/
+    6  mkdir demo1
+    7  cd demo1/
+    8  code .
+    9  cp ../../../Inheritance/SubclassTest/demo1/run .
+   10  ./run 78
+   11  ./run 87
+   12  ./run 78
+   13  ./run 87
+   14  ./run 78
+   15  javap classes/Program.class 
+   16  javap -c classes/Program.class 
+   17  ./run 87
+   18  ./run 78
+   19  ./run 87
+   20  ./run 78
+   21  javap java.lang.String
+   22  javap java.lang.Double
+   23  javap java.lang.Object
+   24  javap java.lang.Comparable
+   25  ./run 78
+   26  ./run 87
+   27  ./run
+   28  cp ../../../Inheritance/SubclassTest/demo2/Interval.java .
+   29  javap java.lang.String
+   30  javap java.lang.Double
+   31  history > ~/Course/Commands/Java/Fundamentals/cmd22-09-26evening.txt 

@@ -1,0 +1,32 @@
+    1  pwd
+    2  cd ..
+    3  mkdir demo1
+    4  cd demo1/
+    5  mkdir lib
+    6  cp ../bank/met-bank-1.0.0.jar lib/
+    7  mkdir -p src/app
+    8  touch src/app/Program.java
+    9  code .
+   10  cp ../bank/met-bank-1.0.0.jar lib/
+   11  javac -d classes src/app/Program.java
+   12  javac -cp lib/met-bank-1.0.0.jar -d classes src/app/Program.java
+   13  java -cp classes/:lib/met-bank-1.0.0.jar app.Program 
+   14  cd ../bank/
+   15  code .
+   16  javac -d classes/ banking/*.java
+   17  jar -c -f met-bank-1.0.0.jar -C classes/ .
+   18  cd ../demo1/
+   19  cp ../bank/met-bank-1.0.0.jar lib/
+   20  java -cp classes/:lib/met-bank-1.0.0.jar app.Program 
+   21  vi run
+   22  chmod +x run 
+   23  ./run 
+   24  code .
+   25  ./run 
+   26  ./run 7000
+   27  ./run 17000
+   28  ./run 4OOO
+   29  ./run three thousand
+   30  cd ../bank/
+   31  code .
+   32  history > ~/Course/Commands/Java/cmd21-09-26evening.txt 
