@@ -7,6 +7,7 @@ public record Customer(String id, double purchase, int rating) implements Compar
     }
 
     public int compareTo(Customer that) {
-        return id.compareTo(that.id);
+       //return that.rating - rating;
+        return -id.compareTo(that.id);
     }
 }
