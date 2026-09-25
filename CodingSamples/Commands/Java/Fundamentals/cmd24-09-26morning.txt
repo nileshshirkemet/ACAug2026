@@ -31,7 +31,7 @@
    31  ./run sunday
    32   
    33  
-   34  
+   34 
    35  pwd
    36  cd ../../
    37  clear

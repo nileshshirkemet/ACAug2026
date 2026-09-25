@@ -1,0 +1,43 @@
+    1  code .
+    2  ls classes/
+    3  rm -r classes/
+    4  ./run 
+    5  ls classes/
+    6  javap -c classes/Program.class 
+    7  ./run 
+    8  cd ..
+    9  cp -r demo1/ demo2
+   10  cd demo2/
+   11  code .
+   12  ./run 
+   13  ./run
+   14  ./run 75000
+   15  ./run 75000 8
+   16  ./run
+   17  ./run 75000
+   18  ./run 75000 8
+   19  javap -p classes/Program.class 
+   20  ./run 75000 8
+   21  cd ..
+   22  mkdir StreamTest
+   23  cd StreamTest/
+   24  mkdir demo1
+   25  cd demo1/
+   26  cd ..
+   27  mv demo1/ demo
+   28  cd demo/
+   29  ls
+   30  cp ../../MethodRefTest/demo1/run .,
+   31  ls
+   32  cp ../../MethodRefTest/demo1/run .
+   33  ls
+   34  code .
+   35  rm ","
+   36  ls
+   37  ll
+   38  r, ".,"
+   39  rm ".,"
+   40  ll
+   41  javac -d classes shopping/*.java
+   42  javap -p classes/shopping/Item.class 
+   43  history > ~/Course/Commands/Java/Fundamentals/cmd24-09-26evening.txt 

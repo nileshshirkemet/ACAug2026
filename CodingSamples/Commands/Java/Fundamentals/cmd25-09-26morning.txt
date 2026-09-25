@@ -1,0 +1,31 @@
+    1  clear
+    2  ls
+    3  cd ..
+    4  clear
+    5  ls
+    6  cd demo/
+    7  ls
+    8  ./run items intel
+    9  ./run items samsung
+   10  ./run items logitech
+   11  ./run items microsoft
+   12  ./run items intel
+   13  ./run items customers 0
+   14  ./run customers 0
+   15  ./run customers 50000
+   16  ./run customers 80000
+   17  ./run customers 100000
+   18  ./run customers 50000
+   19  ./run customers 0
+   20  javap java.lang.Consumer
+   21  javap java.util.stream.Stream
+   22  javap java.util.function.Consumer
+   23  wget -q iitdac.met.edu/shared/data/suppliers.csv
+   24  ls
+   25  ./run suppliers cpu
+   26  ./run suppliers mouse
+   27  ./run suppliers monitor
+   28  mv suppliers.csv suppliers.csv0 
+   29  ./run suppliers mouse
+   30  mv suppliers.csv0 suppliers.csv
+   31  history > ~/Course/Commands/Java/Fundamentals/cmd25-09-26morning.txt 
