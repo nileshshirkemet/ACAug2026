@@ -1,0 +1,46 @@
+    1  mvn --version
+    2  mvn clean install
+    3  ls ~/.m2/repository/course/java/fundamentals/met-bankfin/1.0.0/
+    4  rm -r ~/.m2/repository/course
+    5  ls ~/.m2/repository/course/java/fundamentals/met-bankfin/1.0.0/
+    6  mvn clean install
+    7  ls ~/.m2/repository/course/java/fundamentals/met-bankfin/1.0.0/
+    8  cd ..
+    9  ls
+   10  cd demo2/
+   11  ls
+   12  mkdir  src/main/java
+   13  mkdir -p  src/main/java
+   14  touch pom.xml
+   15  code .
+   16  java --version
+   17  code .
+   18  mvn compile
+   19  ls target/classes/
+   20  mvn compile dependency:copy-dependencies
+   21  ls target/classes/
+   22  ls target/dependency/
+   23  java -cp target/classes/:target/dependency/* app.Program 900000 Education
+   24  vi run
+   25  chmod +x run 
+   26  ./run 900000 Personal
+   27  ./run 900000 Home
+   28  ./run 900000 Business
+   29  cd ../bankfin/
+   30  code .
+   31  mvn -q clean install
+   32  ls ~/.m2/repository/course/java/fundamentals/met-bankfin/
+   33  cd ../demo
+   34  cd ../demo2
+   35  ./run 900000 Home
+   36  ./run 900000 Car
+   37  code .
+   38  ./run 900000 Car
+   39  ./run 900000 Education
+   40  ./run 900000 Home
+   41  ./run 900000 Personal
+   42  ./run 900000 Car
+   43  ./run 900000 Business
+   44  cd ../bankfin/
+   45  code .
+   46  history > ~/Course/Commands/Java/Fundamentals/cmd26-09-26morning.txt 

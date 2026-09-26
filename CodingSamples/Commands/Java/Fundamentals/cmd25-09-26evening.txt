@@ -1,0 +1,37 @@
+    1  cd ../..
+    2  cd ..
+    3  mkdir Reflection
+    4  cd Reflection/
+    5  javap java.lang.Class
+    6  mkdir IntrospectionTest
+    7  cd IntrospectionTest/
+    8  mkdir demo
+    9  cd demo/
+   10  cd ..
+   11  rm -r demo/
+   12  mkdir demo1
+   13  cd demo1/
+   14  mkdir shooping
+   15  mv shooping/ shopping
+   16  cp ../../../Functional/StreamTest/demo/shopping/Item.java shopping/
+   17  cp ../../../Functional/StreamTest/demo/shopping/Customer.java shopping/
+   18  code .
+   19  cp ../../../Functional/StreamTest/demo/run .
+   20  ./run 
+   21  cd ..
+   22  ls
+   23  mkdir demo2
+   24  mkdir bankfin
+   25  cd bankfin/
+   26  mkdir -p src/main/java
+   27  vi pom.xml
+   28  code .
+   29  mvn compile
+   30  mvn -q compile
+   31  ls target/
+   32  mvn -q package
+   33  ls target/
+   34  mvn -q install
+   35  ls ~/.m2/repository/course/java/fundamentals/met-bankfin/1.0.0/
+   36  ls
+   37  history > ~/Course/Commands/Java/Fundamentals/cmd25-09-26evening.txt 

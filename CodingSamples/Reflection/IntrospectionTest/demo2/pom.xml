@@ -1,0 +1,23 @@
+<project>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>samples</groupId>
+    <artifactId>demo</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <maven.compiler.release>25</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>course.java.fundamentals</groupId>
+            <artifactId>met-bankfin</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
