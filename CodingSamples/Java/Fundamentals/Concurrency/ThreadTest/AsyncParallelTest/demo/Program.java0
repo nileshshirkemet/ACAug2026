@@ -1,0 +1,12 @@
+class Program {
+
+    public static void main(String[] args) throws Throwable {
+        int n = Integer.parseInt(args[0]);
+        System.out.print("Computing...");
+        var c = new Computation();
+        long r = c.compute(1, n);
+        System.out.println("Done!");
+        System.out.printf("Result = %d, computed in %.3f seconds.%n", r, c.time());
+
+    }
+}

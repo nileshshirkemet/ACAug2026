@@ -1,0 +1,26 @@
+class Program {
+
+    private static String target;
+
+    private static void work(int count) {
+        long limit = System.currentTimeMillis() + 1000 * count;
+        while(System.currentTimeMillis() < limit);
+    }
+
+    private static void handleJob(int jobNo) {
+        System.out.printf("Job<%d> accepted for %s by thread<%d>%n", jobNo, target, Thread.currentThread().threadId());
+        work(jobNo);
+        System.out.printf("Job<%d> finished for %s%n", jobNo, target);
+    }
+
+    public static void main(String[] args) throws Throwable {
+        int n = args.length > 0 ? Integer.parseInt(args[0]) : 1;
+        Thread child = new Thread(() -> {
+            target = "server";
+            handleJob(n);
+        });
+        child.start();
+        target = "client";
+        handleJob(2);
+    }
+}
