@@ -1,0 +1,26 @@
+package app;
+
+import finance.LoanHelper;
+import finance.OpenPolicy;
+import finance.policies.EducationLoan;
+import finance.policies.HomeLoan;
+import finance.policies.PersonalLoan;
+
+public class Program {
+    
+    public static void main(String[] args) {
+        double p = Double.parseDouble(args[0]);
+        OpenPolicy policy = switch(args[1]) {
+            case "Education" -> new EducationLoan();
+            case "Home" -> new HomeLoan();
+            case "Personal" -> new PersonalLoan();
+            default -> throw new IllegalArgumentException("No such policy");
+        };
+        int m = 10;
+        for(int n = 1; n <= m; ++n) {
+            float r = policy.common(p, n);
+            double emi = LoanHelper.monthlyInstallment(p, n, r);
+            System.out.printf("%-6d%16.2f%n", n, emi);
+        }
+    }
+}

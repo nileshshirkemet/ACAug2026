@@ -1,0 +1,8 @@
+finance/policies/HomeLoan.class
+finance/Marginal.class
+finance/policies/EducationLoan.class
+finance/policies/PersonalLoan.class
+finance/OpenPolicy.class
+finance/LoanHelper.class
+finance/MaxDuration.class
+finance/policies/CarLoan.class
