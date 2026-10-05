@@ -1,3 +1,0 @@
-javac -d classes Program.java
-java -cp classes Program $*
-
