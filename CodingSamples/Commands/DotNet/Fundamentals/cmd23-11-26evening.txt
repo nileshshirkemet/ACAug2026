@@ -1,0 +1,64 @@
+    1  clear
+    2  cd Course/
+    3  mkdir -p DotNet/Fundamentals/Basics
+    4  cd DotNet/Fundamentals/Basics
+    5  ls
+    6  vi Hello.il
+    7  dotnet --list-sdks
+    8  dotnet --list-runtimes
+    9  ll /home/cdac/dotnet/shared/Microsoft.NETCore.App/10.0.5/
+   10  wget iitdac.met.edu/shared/dotnet/iltools.sh
+   11  ls
+   12  bash iltools.sh 
+   13  ilasm Hello.il -out:Hello1.dll
+   14  ls
+   15  wget -q iitdac.met.edu/dotnet/native/clrhosttest.cpp
+   16  ls
+   17  wget -q iitdac.met.edu/shared/dotnet/native/clrhosttest.cpp
+   18  ls
+   19  wget  iitdac.met.edu/shared/dotnet/native/clrhosttest.cpp
+   20  wget  iitdac.met.edu/shared/native/clrhosttest.cpp
+   21  ls
+   22  c++ -o Hello1 -D ASSEMBLY=Hello1.dll -D FRAMEWORK=10.0.5
+   23  c++ clrhosttest.cpp -o Hello1 -D ASSEMBLY=Hello1.dll -D FRAMEWORK=10.0.5
+   24  ls
+   25  ./Hello1 
+   26  vi Hello.il
+   27  ilasm Hello.il -out:Hello1.dll
+   28  ./Hello1 
+   29  vi Hello.il
+   30  ilasm Hello.il -out:Hello1.dll
+   31  ./Hello1 
+   32  vi Hello.il
+   33  ilasm Hello.il -out:Hello1.dll
+   34  vi Hello.il
+   35  ilasm -quiet Hello.il -out:Hello1.dll
+   36  ./Hello1 
+   37  vi Hello.cs
+   38  /home/cdac/dotnet/sdk/10.0.201/Roslyn/bincore/csc -version
+   39  /home/cdac/dotnet/sdk/10.0.201/Roslyn/bincore/csc -version Hello.cs -out:Hello2.dll
+   40  /home/cdac/dotnet/sdk/10.0.201/Roslyn/bincore/csc Hello.cs -out:Hello2.dll
+   41  /home/cdac/dotnet/sdk/10.0.201/Roslyn/bincore/csc Hello.cs -out:Hello2.dll -r:System.Runtime.dll -r:System.Console.dll 
+   42  /home/cdac/dotnet/sdk/10.0.201/Roslyn/bincore/csc Hello.cs -out:Hello2.dll -r:System.Runtime.dll -r:System.Console.dll -lib:/home/cdac/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.5/ref/net10.0/
+   43  ls
+   44  vi Hello.cs
+   45  /home/cdac/dotnet/sdk/10.0.201/Roslyn/bincore/csc Hello.cs -out:Hello2.dll -r:System.Runtime.dll -r:System.Console.dll -lib:/home/cdac/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.5/ref/net10.0/
+   46  vi Hello.cs
+   47  /home/cdac/dotnet/sdk/10.0.201/Roslyn/bincore/csc Hello.cs -out:Hello2.dll -r:System.Runtime.dll -r:System.Console.dll -lib:/home/cdac/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.5/ref/net10.0/
+   48  dotnet Hello2.dll 
+   49  vi Hello2.runtimeconfig.json
+   50  dotnet Hello2.dll 
+   51* ilrtconf > Hello2.runtimeconfig.json 
+   52  vi Hello2.runtimeconfig.json
+   53  dotnet Hello2.dll 
+   54  vi Hello.cs
+   55  /home/cdac/dotnet/sdk/10.0.201/Roslyn/bincore/csc Hello.cs -out:Hello2.dll -r:System.Runtime.dll -r:System.Console.dll -lib:/home/cdac/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.5/ref/net10.0/
+   56  dotnet Hello2.dll 
+   57  uname -m
+   58  scp Hello2.dll Hello2.runtimeconfig.json unipro@linuxarm.km-hussain.in:Testing
+   59  scp Hello2.dll Hello2.runtimeconfig.json unipro@linuxarm.km-hussain.xyz:Testing
+   60  ssh unipro@linuxarm.km-hussain.xyz
+   61  ls
+   62  pwd
+   63  cd ../../../
+   79  history > cmd23-11-26evening.txt

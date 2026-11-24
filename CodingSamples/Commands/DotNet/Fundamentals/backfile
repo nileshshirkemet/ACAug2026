@@ -1,0 +1,1000 @@
+ 1022  mkdir Course
+ 1023  code .
+ 1024  cd Course/
+ 1025  code .
+ 1026  cd ~/Test
+ 1027  ls
+ 1028  code hello.s
+ 1029  rm hello.s
+ 1030  code test.s
+ 1031  rm -r test
+ 1032  rm -r test.s
+ 1033  wget -qO- iitdac.met.edu/shared/native/asmrt-x64.tar.gz | x
+ 1034  wget -qO- iitdac.met.edu/shared/native/asmrt-x64.tar.gz | tar x
+ 1035  ls
+ 1036  vi hello.s
+ 1037  as -o hello.o hello.s
+ 1038  ld -o hello hello.o runtime.o 
+ 1039  ./hello 
+ 1040  history -c & exit
+ 1041  exit
+ 1042  ls
+ 1043  exit
+ 1044  ls
+ 1045  sudo apt update -y
+ 1046  sudo apt install -y ca-certificates
+ 1047  sudo install -d /usr/share/postgresql-common/pgdg
+ 1048  sudo apt install postgresql postgresql-contrib
+ 1049  sudo apt remove postgresql postgresql-contrib
+ 1050  sudo apt install -y postgresql-common ca-certificates
+ 1051  sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
+ 1052  sudo apt update
+ 1053  sudo apt install -y postgresql-18 postgresql-contrib-18
+ 1054  sudo systemctl status postgresql
+ 1055  psql --version
+ 1056  sudo -i -u postgres psql
+ 1057  exit
+ 1058  sudo -i -u postgres psql
+ 1059  psql -_
+ 1060  psql -U dac -d postgres
+ 1061  psql -U dac -d postgres -h localhost
+ 1062  psql -U dac -d test -h localhost
+ 1063  psql postgresql://dac:metiit@localhost/test
+ 1064  echo "localhost:5432:postgres:dac:metiit" >> ~/.pgpass
+ 1065  chmod 600 ~/.pgpass 
+ 1066  psql -U dac -d test -h localhost
+ 1067  psql -U dac -d postgres -h localhost
+ 1068  vi ~/.pgpass 
+ 1069  psql -U dac -d test -h localhost
+ 1070  psql -U dac -d test
+ 1071  vi .bashrc
+ 1072  exec bash
+ 1073  psql -U dac -d test
+ 1074  exit
+ 1075  ping 192.168.4.53
+ 1076  exit
+ 1077  usql oracle://dac:metiit@localhost/xepdb1
+ 1078  usql oracle://dac:metiit@iitdac.met.edu/xepdb1
+ 1079  exit
+ 1080  usql oracle://dac:metiit@iitdac.met.edu/xepdb1
+ 1081  wget -P /mnt/c/Users/efaculty1/AppData/Local/Microsoft/WindowsApps/ iitdac.met.edu/shared/data/usql.exe
+ 1082  usql.exe 
+ 1083  usql.exe oracle://dac:metiit@iitdac.met.edu/xepdb1
+ 1084  vi ~/.bashrc 
+ 1085  exec bash
+ 1086  exit
+ 1087  ls
+ 1088  exit
+ 1089  ls
+ 1090  exit
+ 1091  ls
+ 1092  cat main.py 
+ 1093  rm main.py 
+ 1094  cat old.bashrc 
+ 1095  ls
+ 1096  ls my-env/
+ 1097  history -d & exit
+ 1098  history -c & exit
+ 1099  exit
+ 1100  cd Test
+ 1101  godbolt-virtfunc.cpp
+ 1102  vi godbolt-virtfunc.cpp
+ 1103  exit
+ 1104  clear
+ 1105  ls
+ 1106  cd ..
+ 1107  ls
+ 1108  cd Nilesh/
+ 1109  cd ..
+ 1110  cd Backup/
+ 1111  ls
+ 1112  cd ..
+ 1113  ls
+ 1114  cd Course/
+ 1115  cd ..
+ 1116  cd Nilesh/
+ 1117  ls
+ 1118  cp -r ../Course/
+ 1119  cp -r ../Course/ .
+ 1120  ls
+ 1121  cd Course
+ 1122  pwd
+ 1123  cd Commands/
+ 1124  cd ..
+ 1125  ls
+ 1126  cd Foundations/
+ 1127  ls
+ 1128  cd Classes/
+ 1129  ls
+ 1130  vi banners1.h
+ 1131  vi classtest1.cpp
+ 1132  clear
+ 1133  pwd
+ 1134  ls
+ 1135  vi banner2.h
+ 1136  vi classtest1.cpp
+ 1137  vi classtest2.cpp
+ 1138  vi banners2.h 
+ 1139  ls
+ 1140  cd Nilesh/
+ 1141  ls
+ 1142  cd Course
+ 1143  ls
+ 1144  cd Foundations/
+ 1145  ls
+ 1146  cd Classes/
+ 1147  ls
+ 1148  vi banner1.h
+ 1149  vi banners1.h
+ 1150  exit
+ 1151  ll
+ 1152  code interval2.h operovldtest.cpp 
+ 1153  c++ -o program operovldtest.cpp 
+ 1154  ./program 
+ 1155  c++ -o program operovldtest.cpp 
+ 1156  ./program 
+ 1157  cd ..
+ 1158  mkdir Inheritance
+ 1159  cd Inheritance/
+ 1160  code boxes.h
+ 1161  code derivedclasstest.cpp
+ 1162  c++ -o program derivedclasstest.cpp 
+ 1163  ./program 
+ 1164  c++ -o program derivedclasstest.cpp 
+ 1165  ./program 
+ 1166  history > ~/Course/Commands/Foundations/cmd13-09-26morning.txt 
+ 1167  vi ~/Course/Commands/Foundations/cmd13-09-26morning.txt 
+ 1168  cp -r ~/Course/Commands/ /mnt/d/ACAug2026/CodingSamples/
+ 1169  cp -r ~/Course/Foundations/ /mnt/d/ACAug2026/CodingSamples/
+ 1170  exit
+ 1171  cat Course/Foundations/Inheritance/derivedclasstest.cpp 
+ 1172  exit
+ 1173  exit
+ 1174  exit
+ 1175  c++ --version
+ 1176  exit
+ 1177  ls
+ 1178  cd Nilesh/
+ 1179  ls
+ 1180  cd Course/
+ 1181  ls
+ 1182  cd Foundations/
+ 1183  ls
+ 1184  cd Classes/
+ 1185  ls
+ 1186  vi classtest1.cpp
+ 1187  vi objreftest.cpp 
+ 1188  pwd
+ 1189  clear
+ 1190  c++ objreftest.cpp
+ 1191  ./a.out
+ 1192  vi objreftest.cpp 
+ 1193  c++ objreftest.cpp
+ 1194  ./aout
+ 1195  ./a.out
+ 1196  clear
+ 1197  vi objreftest.cpp 
+ 1198  c++ objreftest.cpp
+ 1199  ./a.out
+ 1200  vi objreftest.cpp 
+ 1201  exit
+ 1202  ls
+ 1203  cd Nilesh/Course/Foundations/Classes/
+ 1204  ls
+ 1205  vi classtest2.cpp
+ 1206  pwd
+ 1207  c++ --version
+ 1208  exit
+ 1209  pwd
+ 1210  exit
+ 1211  cd Test
+ 1212  ls
+ 1213  cp ~/Course/Foundations/Templates/genalgotest.cpp .
+ 1214  code genalgotest.cpp 
+ 1215  c++ genalgotest.cpp 
+ 1216  ./a.out 
+ 1217  c++ genalgotest.cpp 
+ 1218  ./a.out 
+ 1219  c++ genalgotest.cpp 
+ 1220  ./a.out 
+ 1221  code lambdaexprtest.cpp
+ 1222  c++ lambdaexprtest.cpp 
+ 1223  c++ -std=c++20 lambdaexprtest.cpp 
+ 1224  ./a.out 
+ 1225  c++ -std=c++20 lambdaexprtest.cpp 
+ 1226  ./a.out 
+ 1227  c++ -std=c++20 lambdaexprtest.cpp 
+ 1228  ./a.out 
+ 1229  c++ -std=c++20 lambdaexprtest.cpp 
+ 1230  ./a.out 
+ 1231  history -c & exit
+ 1232  cd Test
+ 1233  cp ~/Course/Foundations/Templates/genalgotest.cpp .
+ 1234  code genalgotest.cpp 
+ 1235  c++ genalgotest.cpp
+ 1236  ./a.out 
+ 1237  c++ genalgotest.cpp
+ 1238  ./a.out 
+ 1239  c++ genalgotest.cpp
+ 1240  ./a.out 
+ 1241  c++ genalgotest.cpp
+ 1242  ./a.out 
+ 1243  c++ genalgotest.cpp
+ 1244  ./a.out 
+ 1245  c++ genalgotest.cpp
+ 1246  ./a.out 
+ 1247  c++ genalgotest.cpp
+ 1248  ./a.out 
+ 1249  c++ genalgotest.cpp
+ 1250  ./a.out 
+ 1251  history -c & exit
+ 1252  cat Course/Foundations/Templates/genalgotest.cpp 
+ 1253  exit
+ 1254  cd Course/Foundations/Templates/
+ 1255  vi classtmplttest1.cpp
+ 1256  history -c & exit
+ 1257  ls
+ 1258  pwd
+ 1259  clear
+ 1260  ls
+ 1261  cd Nilesh/
+ 1262  ls
+ 1263  cd Course/Foundations/Inheritance/
+ 1264  ls
+ 1265  vi boxes_0.h 
+ 1266  mkdir PrimitiveTypeTest
+ 1267  cd PrimitiveTypeTest/
+ 1268  mkdir demo
+ 1269  cd demo/
+ 1270  code .
+ 1271  javac Program.java 
+ 1272  ls
+ 1273  java Program 
+ 1274  javac Investment.java 
+ 1275  javac Program.java 
+ 1276  java Program 
+ 1277  javac Program.java 
+ 1278  java Program 25000 6
+ 1279  java Program 25000 9
+ 1280  java Program 200000 5
+ 1281  java Program  5OOOO 10
+ 1282  cd ..
+ 1283  cp -r PrimitiveTypeTest/ UserDefTypeTest
+ 1284  cd UserDefTypeTest/
+ 1285  cd demo/
+ 1286  cd ..
+ 1287  mv demo/ demo1
+ 1288  cd demo1/
+ 1289  ls
+ 1290  rm *.class
+ 1291  ls
+ 1292  code .
+ 1293  ls
+ 1294  javac -d classes Program.java 
+ 1295  ls
+ 1296  ls classes/
+ 1297  java Program 25000 6
+ 1298  java -cp classes Program 25000 6
+ 1299  vi run
+ 1300  bash run 25000 6
+ 1301  chmod +x run 
+ 1302  ./run 25000 6
+ 1303  ./run 200000 5
+ 1304  ls
+ 1305  cd Nilesh/Course/Foundations/
+ 1306  ls
+ 1307  cd Inheritance/
+ 1308  ls
+ 1309  vi boxes.h
+ 1310  cd ..
+ 1311  ls
+ 1312  cd Classes/
+ 1313  ls
+ 1314  vi interval
+ 1315  vi interval1.h
+ 1316  clear
+ 1317  exit
+ 1318  exit
+ 1319  cd Nilesh/
+ 1320  cd Course/Foundations/Inheritance/
+ 1321  ls
+ 1322  vi rttitest2.cpp
+ 1323  cd ..
+ 1324  ls
+ 1325  pwd
+ 1326  cd ..
+ 1327  ls
+ 1328  cd ..
+ 1329  ls
+ 1330  cd Course/
+ 1331  ls
+ 1332  cd Java
+ 1333  ls
+ 1334  cd Fundamentals/
+ 1335  ls
+ 1336  cd Basic
+ 1337  cd Basics
+ 1338  clear
+ 1339  ls
+ 1340  cd UserDefTypeTest/
+ 1341  ls
+ 1342  cd demo1
+ 1343  ls'
+ 1344  ls
+ 1345  vi run
+ 1346  clear
+ 1347  cd ..
+ 1348  ls
+ 1349  cd ..
+ 1350  ls
+ 1351  cd Inheritance/
+ 1352  ls
+ 1353  cd SubclassTest/
+ 1354  ls
+ 1355  cd demo1
+ 1356  clear
+ 1357  ls
+ 1358  cd payroll/
+ 1359  ls
+ 1360  vi Employee.java 
+ 1361  vi SalesPerson.java 
+ 1362  ls
+ 1363  cd ..
+ 1364  ls
+ 1365  vi run
+ 1366  ls classes
+ 1367  ls classes/payroll
+ 1368  vi run
+ 1369  ls
+ 1370  cd Nilesh/Course/Foundations/Inheritance/
+ 1371  ls
+ 1372  vi boards2.h
+ 1373  cd Nilesh/Course/Foundations/Inheritance/
+ 1374  ls
+ 1375  vi rttitest1.cpp
+ 1376  vi rttitest2.cpp
+ 1377  vi adttest.cpp 
+ 1378  ls
+ 1379  cd Nilesh/
+ 1380  ls
+ 1381  cd Course
+ 1382  ls
+ 1383  cd Foundations/
+ 1384  ls
+ 1385  cd Inheritance/
+ 1386  ls
+ 1387  clear
+ 1388  ls
+ 1389  vi boards1.cpp
+ 1390  javac Program.java 
+ 1391  java Program 
+ 1392  javac Program.java
+ 1393  java Program 
+ 1394  ls Course/Java/Fundamentals/
+ 1395  ls Course/Java
+ 1396  ls Course/Java/Fundamentals/
+ 1397  ls Course/Java/Fundamentals/Basics/
+ 1398  exit
+ 1399  ls
+ 1400  cd Nilesh
+ 1401  ls
+ 1402  cd Course
+ 1403  ls
+ 1404  cd Java
+ 1405  ls
+ 1406  cd Fundamentals/
+ 1407  ls
+ 1408  cd Basic/
+ 1409  cd Basics
+ 1410  ls
+ 1411  cd ..
+ 1412  ls
+ 1413  cd Java
+ 1414  ls
+ 1415  cd Fundamentals/
+ 1416  ls
+ 1417  cd Basics
+ 1418  ls
+ 1419  cd ..
+ 1420  cd Course
+ 1421  ls
+ 1422  cd Java
+ 1423  ls
+ 1424  cd Fundamentals/
+ 1425  ls
+ 1426  cd Inheritance/
+ 1427  ls
+ 1428  cd SubclassTest/
+ 1429  ls
+ 1430  cd demo1
+ 1431  ls
+ 1432  cd ..
+ 1433  ls
+ 1434  cd InterfaceTest/
+ 1435  ls
+ 1436  cd ..
+ 1437  ls
+ 1438  cd ..
+ 1439  cd ~/Nilesh/
+ 1440  pwd
+ 1441  ls
+ 1442  cd Course
+ 1443  ls
+ 1444  cd Java
+ 1445  ls
+ 1446  cd Fundamentals/Basics/
+ 1447  ls
+ 1448  cd ..
+ 1449  ls
+ 1450  cd Java/
+ 1451  ls
+ 1452  cd Fundamentals/Basics/
+ 1453  ls
+ 1454  cd ..
+ 1455  cp -r /mnt/d/ACAug2026/CodingSamples/Commands/ .
+ 1456  cp -r /mnt/d/ACAug2026/CodingSamples/Java/ .
+ 1457  ls
+ 1458  cd Java
+ 1459  ls
+ 1460  cd Fundamentals/Basics/
+ 1461  ls
+ 1462  cd ...
+ 1463  clear
+ 1464  cp -r /mnt/d/ACAug2026/CodingSamples/Java/Fundamentals/Basics/ .
+ 1465  ls
+ 1466  cd Inheritance/
+ 1467  ls
+ 1468  cd HospitalApp/
+ 1469  code .
+ 1470  ls
+ 1471  javac -d classes *.java
+ 1472  vi Patient.java 
+ 1473  clear
+ 1474  ls
+ 1475  javac Patient.java
+ 1476  ls
+ 1477  rm -r classes
+ 1478  rm Patient.class
+ 1479  ls
+ 1480  rm Program.class
+ 1481  ls
+ 1482  vi Program.java 
+ 1483  javac -d . Patient.java
+ 1484  ls
+ 1485  javac Program.java 
+ 1486  ls
+ 1487  rm -r Hospital/
+ 1488  clear
+ 1489  javac -d classes Patient.java
+ 1490  ls
+ 1491  ls classes/Hospital/
+ 1492  clear
+ 1493  java Program
+ 1494  java -cp classes Program
+ 1495  java -cp classes:. Program
+ 1496  vi Program.java 
+ 1497  clear\
+ 1498  clear
+ 1499  java -cp classes:. Program
+ 1500  javac Program.java
+ 1501  javac -cp classes Program.java
+ 1502  clear
+ 1503  java -cp classes:. Program
+ 1504  cd ..
+ 1505  ls
+ 1506  cd ~
+ 1507  ls
+ 1508  cd Course/
+ 1509  ls
+ 1510  pwd
+ 1511  cd ..
+ 1512  cd Nilesh/
+ 1513  ls
+ 1514  cd Java/
+ 1515  ls
+ 1516  cd Fundamentals/
+ 1517  ls
+ 1518  cd Inheritance/
+ 1519  ls
+ 1520  cd HospitalApp/
+ 1521  ls
+ 1522  clear
+ 1523  ls
+ 1524  rm -r classes
+ 1525  ls
+ 1526  rm Program.
+ 1527  rm Program.class
+ 1528  ls
+ 1529  javac -d classes Patient
+ 1530  javac -d classes Patient.java
+ 1531  ls classes/
+ 1532  javac -cp classes Program.java
+ 1533  ls
+ 1534  java -cp classes:. Program
+ 1535  exit
+ 1536  ls
+ 1537  cd Nilesh
+ 1538  ls
+ 1539  cd Java
+ 1540  ls
+ 1541  cd Fundamentals/Inheritance/
+ 1542  ls
+ 1543  cp -r HospitalApp/ /mnt/d/ACAug2026/CodingSamples/
+ 1544  exit
+ 1545  cd Course/Java/Fundamentals/Generic/TypeParameterTest/demo1/
+ 1546  javap -p -c classes/Program.class 
+ 1547  history -c & exit
+ 1548  pwd
+ 1549  cd TypeParameterTest/demo1/
+ 1550  code .
+ 1551  cd ..
+ 1552  mkdir demo2
+ 1553  cd demo2/
+ 1554  cp ../demo1/Interval.java 
+ 1555  cp ../demo1/Interval.java .
+ 1556  cp ../demo1/run .
+ 1557  code .
+ 1558  javac -d classes SimpleStack.java 
+ 1559  ls classes/
+ 1560  ./run 
+ 1561  rm -r .m2/repository/course/
+ 1562  exit
+ 1563  exit
+ 1564  clear
+ 1565  mkdir Concurrency
+ 1566  cd Concurrency/
+ 1567  mkdir ThreadTest
+ 1568  cd ThreadTest/
+ 1569  mkdir demo1
+ 1570  cd demo1/
+ 1571  code .
+ 1572  cp ../../../Inheritance/SubclassTest/demo1/run .
+ 1573  cat run
+ 1574  ./run 
+ 1575  ./run 3
+ 1576  ./run
+ 1577  ./run 3
+ 1578  ./run
+ 1579  ./run 6
+ 1580  ./run
+ 1581  ./run 6
+ 1582  ./run 8
+ 1583  clear
+ 1584  pwd
+ 1585  clear
+ 1586  cd Concurrency/ThreadTest/demo2/
+ 1587  ls
+ 1588  code .
+ 1589  cd ..
+ 1590  mkdir AsyncParallelTest
+ 1591  cd AsyncParallelTest/
+ 1592  mkdir demo
+ 1593  cp ../../ThreadTest/demo1/run  .
+ 1594  mv run  demo/
+ 1595  cd demo/
+ 1596  ls
+ 1597  code .
+ 1598  ./run 5
+ 1599  ./run 10
+ 1600  ./run 20
+ 1601  ./run 30
+ 1602  ./run 20
+ 1603  history > ~/Course/Commands/Java/Fundamentals/cmd28-09-26evening.txt 
+ 1604  vi ~/Course/Commands/Java/Fundamentals/cmd28-09-26evening.txt 
+ 1605  cp -r ~/Course/Commands/Java/Fundamentals/ /mnt/d/ACAug2026/CodingSamples/Commands/Java/
+ 1606  cp -r ~/Course/Java/ /mnt/d/ACAug2026/CodingSamples/
+ 1607  cd ../../../
+ 1608  ls
+ 1609  cd -
+ 1610  cd ../../../../../
+ 1611  ls
+ 1612  ls Fundamentals/
+ 1613  cd ..
+ 1614  ls
+ 1615  cd ..
+ 1616  pwd
+ 1617  vi .bashrc 
+ 1618  ls
+ 1619  cd Course/Java/Fundamentals/Concurrency/ThreadTest/AsyncParallelTest/demo/
+ 1620  ls
+ 1621  code .
+ 1622  la
+ 1623  cd ..
+ 1624  ls
+ 1625  cd ..
+ 1626  ls
+ 1627  code .
+ 1628  clear
+ 1629  ls
+ 1630  clear
+ 1631  ls
+ 1632  cd demo1
+ 1633  ls
+ 1634  code .
+ 1635  ls
+ 1636  cd ..
+ 1637  ls
+ 1638  cd demo2
+ 1639  code .
+ 1640  clear
+ 1641  ls
+ 1642  vi run
+ 1643  ./run
+ 1644  vi run
+ 1645  exit
+ 1646  ls
+ 1647  clear
+ 1648  cd Course
+ 1649  ls
+ 1650  cd Java
+ 1651  ls
+ 1652  cd Fundamentals/
+ 1653  ls
+ 1654  cd Concurrency/
+ 1655  ls
+ 1656  cd ThreadTest/
+ 1657  ls
+ 1658  clear
+ 1659  code .
+ 1660  exit
+ 1661  cd /mnt/d
+ 1662  ls
+ 1663  ll
+ 1664  ll BankingTest.cpp 
+ 1665  vi BankingTest.cpp 
+ 1666  ls
+ 1667  ll
+ 1668  ls Backup/
+ 1669  cd Backup/Course-Feb2026/DotNet/Fundamentals/Basics/
+ 1670  ls
+ 1671  cd ..
+ 1672  ls
+ 1673  cd /mnt/d
+ 1674  ls
+ 1675  cd OLDACFeb2026/
+ 1676  ls
+ 1677  cd DotNet/Fundamentals/Basics/
+ 1678  ls
+ 1679  zip -r missing.zip BuiltInTypesTest/ StructTypeTest/
+ 1680  rm -r BuiltInTypesTest/DemoApp/obj/
+ 1681  rm -r StructTypeTest/DemoApp1/bin/
+ 1682  rm -r StructTypeTest/DemoApp1/obj/
+ 1683  ls
+ 1684  rm missing.zip 
+ 1685  zip -r missing.zip BuiltInTypesTest/ StructTypeTest/
+ 1686  scp missing.zip  dacfaculty@iitdac.met.edu:TEMP/
+ 1687  scp missing.zip  daciit@iitdac.met.edu:TEMP/
+ 1688  exit
+ 1689  ls
+ 1690  cd Course
+ 1691  ls
+ 1692  cd Java
+ 1693  ls
+ 1694  cd Fundamentals/
+ 1695  ls
+ 1696  cd Concurrency/
+ 1697  ls
+ 1698  cd ThreadTest/
+ 1699  ls
+ 1700  cd AsyncParallelTest/
+ 1701  ls
+ 1702  code .
+ 1703  ls
+ 1704  cd ..
+ 1705  clear
+ 1706  javap java.lang.Object
+ 1707  java.lang.Iterable
+ 1708  javap java.lang.Iterable
+ 1709  javap java.util.Iterator
+ 1710  cd  ..
+ 1711  ls
+ 1712  cd ..
+ 1713  ls
+ 1714  cd Generic
+ 1715  ls
+ 1716  cd IterableTest/
+ 1717  ls
+ 1718  clear
+ 1719  code .
+ 1720  javap java.lang.Iterable
+ 1721  cd ..
+ 1722  ls
+ 1723  cd ..
+ 1724  ls 
+ 1725  cd Inheritance/
+ 1726  ls
+ 1727  cd
+ 1728  cd  Course/Java/
+ 1729  ls
+ 1730  cd Fundamentals/Generic/
+ 1731  ls
+ 1732  cd TypeParameterTest/
+ 1733  ls
+ 1734  cd demo1
+ 1735  ls
+ 1736  cd ..
+ 1737  code .
+ 1738  exit
+ 1739  dotnet --version
+ 1740  exit
+ 1741  dotnet --list-runtimes
+ 1742  exit
+ 1743  ls
+ 1744  cd Nilesh
+ 1745  ls
+ 1746  cd Course
+ 1747  ls
+ 1748  cd Foundations/
+ 1749  ls
+ 1750  cd Inheritance
+ 1751  ls
+ 1752  cd ..
+ 1753  ls
+ 1754  cd ..
+ 1755  ls
+ 1756  cd Java
+ 1757  ls
+ 1758  cd Fundamentals/
+ 1759  ls
+ 1760  cd ..
+ 1761  ls
+ 1762  cd Course
+ 1763  ls
+ 1764  cd Java
+ 1765  ls
+ 1766  cd Fundamentals/
+ 1767  ls
+ 1768  cd Generic
+ 1769  ls
+ 1770  cd TypeParameterTest/
+ 1771  ls
+ 1772  code .
+ 1773  cd ..
+ 1774  ls
+ 1775  cd IterableTest/
+ 1776  ls
+ 1777  code .
+ 1778  cd ..
+ 1779  ls
+ 1780  cd TypeParameterTest/
+ 1781  ls
+ 1782  code .
+ 1783  exit
+ 1784  ls
+ 1785  cd Course
+ 1786  ls
+ 1787  cd Java
+ 1788  ls
+ 1789  cd Fundamentals/
+ 1790  ls
+ 1791  cd Reflection/
+ 1792  ls
+ 1793  cd IntrospectionTest/
+ 1794  ls
+ 1795  code .
+ 1796  ls
+ 1797  cd Nilesh
+ 1798  ls
+ 1799  mkdir c++tojava
+ 1800  cd c++tojava
+ 1801  ls
+ 1802  code .
+ 1803  javac -d classes Boxes/*.java
+ 1804  ls
+ 1805  javac -d classes Boxes/*.java 
+ 1806  clear
+ 1807  javac Program.java 
+ 1808  ls
+ 1809  java Program
+ 1810  clear
+ 1811  rm Program.class
+ 1812  javac -d classes Boxes/*.java  Program.java
+ 1813  java Program
+ 1814  java -cp classes/* Program
+ 1815  java -cp classes Program
+ 1816  wget -O .editorconfig iitdac.met.edu/shared/dotnet/cs.editorconfig
+ 1817  cat .editorconfig 
+ 1818  exit
+ 1819  vi ~/.editorconfig 
+ 1820  exit
+ 1821  cd 
+ 1822  ls
+ 1823  cd Nilesh/c++tojava/
+ 1824  ls
+ 1825  cd ../dbptrtest/
+ 1826  ls
+ 1827  vi EMS.c 
+ 1828  vi doublepointertest.c 
+ 1829  exit
+ 1830  cd Course/Java/Fundamentals/Concurrency/
+ 1831  ls
+ 1832  mv ThreadTest/AsyncParallelTest/ .
+ 1833  ls
+ 1834  cd /mnt/d
+ 1835  ls
+ 1836  cd ACAug2026/CodingSamples/Java/Fundamentals/Concurrency/
+ 1837  ls
+ 1838  mv ThreadTest/AsyncParallelTest/ .
+ 1839  exit
+ 1840  ls
+ 1841  cd Nilesh
+ 1842  ls
+ 1843  cp -r /mnt/d/mivitest.cpp  .
+ 1844  ls
+ 1845  vi mivitest.cpp 
+ 1846  cp mivitest.cpp mivitest_1.cpp
+ 1847  vi mivitest_1.cpp
+ 1848  c++ mivitest.cpp 
+ 1849  clear
+ 1850  ./a.out
+ 1851  vi mivitest_1.cpp
+ 1852  c++ mivitest.cpp 
+ 1853  ./a.out
+ 1854  vi mivitest_1.cpp
+ 1855  c++ mivitest_1.cpp
+ 1856  vi mivitest_1.cpp
+ 1857  c++ mivitest_1.cpp
+ 1858  ./a.out
+ 1859  clear
+ 1860  vi mivitest_1.cpp
+ 1861  c++ mivitest_1.cpp
+ 1862  vi mivitest_1.cpp
+ 1863  clear
+ 1864  c++ mivitest_1.cpp 
+ 1865  ./a.out
+ 1866  vi mivitest_1.cpp
+ 1867  c++ mivitest_1.cpp 
+ 1868  vi mivitest_1.cpp
+ 1869  c++ mivitest_1.cpp 
+ 1870  clear
+ 1871  ./a.out
+ 1872  c++ mivitest_1.cpp 
+ 1873  vi mivitest_1.cpp
+ 1874  c++ mivitest_1.cpp 
+ 1875  ./a.out
+ 1876  clear
+ 1877  vi ExceptionTest.cpp
+ 1878  c++ ExceptionTest.cpp
+ 1879  vi ExceptionTest.cpp
+ 1880  c++ ExceptionTest.cpp
+ 1881  clear
+ 1882  c++ ExceptionTest.cpp
+ 1883  vi ExceptionTest.cpp
+ 1884  c++ ExceptionTest.cpp
+ 1885  clear
+ 1886  ./a.out
+ 1887  vi ExceptionTest.cpp
+ 1888  vi mivitest.cpp
+ 1889  vi mivitest_1.cpp
+ 1890  rm .dotnet/tools/dotnet-*
+ 1891  exit
+ 1892  ls
+ 1893  exit
+ 1894  ls
+ 1895  ssh dacfaculty@iitdac.met.edu
+ 1896  ssh daciit@iitdac.met.edu
+ 1897  ls
+ 1898  cp -r /mnt/d/Database .
+ 1899  ls
+ 1900  cd Database/
+ 1901  ls
+ 1902  cd JDBC
+ 1903  ls
+ 1904  cd SQLExecTest/
+ 1905  cd ..
+ 1906  code .
+ 1907  ls
+ 1908  cd SQLExecTest/
+ 1909  ls
+ 1910  cd demo
+ 1911  cd demo1
+ 1912  ls
+ 1913  ./run
+ 1914  ssh iitdac.met.edu
+ 1915  ssh daciit@iitdac.met.edu
+ 1916  clear
+ 1917  ssh daciit@iitdac.met.edu
+ 1918  dotnet --version
+ 1919  vi .bashrc
+ 1920  exit
+ 1921  cd Test
+ 1922  ls
+ 1923  dotnet new console -n HelloApp
+ 1924  cd HelloApp/
+ 1925  code .
+ 1926  dotnet --version
+ 1927  code .
+ 1928  cd ~/Course/
+ 1929  ls
+ 1930  cd Java/Fundamentals/Basics/UserDefTypeTest/demo1/
+ 1931  code .
+ 1932  exit
+ 1933  wget -O- iitdac.met.edu/shared/shared.tar.gz | tar x
+ 1934  ls shared/
+ 1935  ls /mnt/d/
+ 1936  mkdir /mnt/d/iitdac-met-edu
+ 1937  mv shared/ /mnt/d/iitdac-met-edu/
+ 1938  exit
+ 1939  ilasm
+ 1940  cd Test
+ 1941  ls
+ 1942  wget iitdac.met.edu/shared/dotnet/
+ 1943  bash iltools.sh 
+ 1944  ilasm
+ 1945  rm -r ~/.dotnet/tools/il*
+ 1946  ilasm
+ 1947  exit
+ 1948  ping iitdac.met.edu
+ 1949  ls /mnt/d/iitdac-met-edu/shared/dotnet/*.txt
+ 1950  exit
+ 1951  ping iitdac.met.edu
+ 1952  exit
+ 1953  exit
+ 1954  clear
+ 1955  ls
+ 1956  cd ..
+ 1957  clear
+ 1958  ls
+ 1959  clear
+ 1960  cd Fundamentals/
+ 1961  ls
+ 1962  cd ~/Course/DotNet/Fundamentals/Basics/
+ 1963  ls
+ 1964  mkdir PrimitiveTypeTest
+ 1965  cd PrimitiveTypeTest/
+ 1966  mkdir DemoApp
+ 1967  cd DemoApp/
+ 1968  ls
+ 1969  vi Program.cs
+ 1970  vi DemoApp.csproj
+ 1971  dotnet build
+ 1972  vi Program.cs
+ 1973  dotnet build
+ 1974  dotnet deploy/Release/net10.0/DemoApp.dll
+ 1975  ./deploy/Release/net10.0/DemoApp 
+ 1976  ls deploy/Release/net10.0/
+ 1977  vi Program.cs
+ 1978  vi DemoApp.csproj
+ 1979  vi Program.cs
+ 1980  dotnet build
+ 1981  vi DemoApp.csproj
+ 1982  dotnet build
+ 1983  ls deploy/Release/net10.0/
+ 1984  vi DemoApp.csproj
+ 1985  code .
+ 1986  dotnet build
+ 1987  dotnet deploy/Release/net10.0/DemoApp.dll
+ 1988  dotnet build
+ 1989  dotnet deploy/Release/net10.0/DemoApp.dll
+ 1990  dotnet build
+ 1991  dotnet deploy/Release/net10.0/DemoApp.dll
+ 1992  dotnet build
+ 1993  dotnet deploy/Release/net10.0/DemoApp.dll
+ 1994  cd Course/DotNet/Fundamentals/Basics/
+ 1995  ls
+ 1996  mkdir UserDefTypeTest
+ 1997  cd UserDefTypeTest/
+ 1998  cp -r ../PrimitiveTypeTest/DemoApp/ DemoApp1
+ 1999  cd DemoApp1/
+ 2000  code .
+ 2001  dotnet build
+ 2002  dotnet bin/Debug/net10.0/DemoApp.dll 50000 6
+ 2003  dotnet run 50000 6
+ 2004  dotnet run 200000 5
+ 2005  dotnet run 50000 6
+ 2006  dotnet run 200000 5
+ 2007  dotnet run 50000 6
+ 2008  ls
+ 2009  cd ..
+ 2010  ls
+ 2011  cd ..
+ 2012  ls
+ 2013  cd ..
+ 2014  ls
+ 2015  cd Commands/
+ 2016  ls
+ 2017  cd DotNet/
+ 2018  ls
+ 2019  cd Fundamentals/
+ 2020  ls
+ 2021  history >cmd24-11-26morning.txt 

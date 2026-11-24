@@ -1,0 +1,63 @@
+ 1959  clear
+ 1960  cd Fundamentals/
+ 1961  ls
+ 1962  cd ~/Course/DotNet/Fundamentals/Basics/
+ 1963  ls
+ 1964  mkdir PrimitiveTypeTest
+ 1965  cd PrimitiveTypeTest/
+ 1966  mkdir DemoApp
+ 1967  cd DemoApp/
+ 1968  ls
+ 1969  vi Program.cs
+ 1970  vi DemoApp.csproj
+ 1971  dotnet build
+ 1972  vi Program.cs
+ 1973  dotnet build
+ 1974  dotnet deploy/Release/net10.0/DemoApp.dll
+ 1975  ./deploy/Release/net10.0/DemoApp 
+ 1976  ls deploy/Release/net10.0/
+ 1977  vi Program.cs
+ 1978  vi DemoApp.csproj
+ 1979  vi Program.cs
+ 1980  dotnet build
+ 1981  vi DemoApp.csproj
+ 1982  dotnet build
+ 1983  ls deploy/Release/net10.0/
+ 1984  vi DemoApp.csproj
+ 1985  code .
+ 1986  dotnet build
+ 1987  dotnet deploy/Release/net10.0/DemoApp.dll
+ 1988  dotnet build
+ 1989  dotnet deploy/Release/net10.0/DemoApp.dll
+ 1990  dotnet build
+ 1991  dotnet deploy/Release/net10.0/DemoApp.dll
+ 1992  dotnet build
+ 1993  dotnet deploy/Release/net10.0/DemoApp.dll
+ 1994  cd Course/DotNet/Fundamentals/Basics/
+ 1995  ls
+ 1996  mkdir UserDefTypeTest
+ 1997  cd UserDefTypeTest/
+ 1998  cp -r ../PrimitiveTypeTest/DemoApp/ DemoApp1
+ 1999  cd DemoApp1/
+ 2000  code .
+ 2001  dotnet build
+ 2002  dotnet bin/Debug/net10.0/DemoApp.dll 50000 6
+ 2003  dotnet run 50000 6
+ 2004  dotnet run 200000 5
+ 2005  dotnet run 50000 6
+ 2006  dotnet run 200000 5
+ 2007  dotnet run 50000 6
+ 2008  ls
+ 2009  cd ..
+ 2010  ls
+ 2011  cd ..
+ 2012  ls
+ 2013  cd ..
+ 2014  ls
+ 2015  cd Commands/
+ 2016  ls
+ 2017  cd DotNet/
+ 2018  ls
+ 2019  cd Fundamentals/
+ 2020  ls
+ 2021  history >cmd24-11-26morning.txt 
