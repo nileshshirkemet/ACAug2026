@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType> <!-- default: Library -->
+		<BaseOutputPath>deploy</BaseOutputPath> <!-- default: bin -->
+		<Configuration>Release</Configuration> <!-- default: Debug -->
+		<TargetFramework>net10.0</TargetFramework> <!-- required -->
+	</PropertyGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/bin/Debug/net10.0/DemoApp
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/bin/Debug/net10.0/DemoApp.deps.json
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/bin/Debug/net10.0/DemoApp.runtimeconfig.json
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/bin/Debug/net10.0/DemoApp.dll
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/bin/Debug/net10.0/DemoApp.pdb
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/obj/Debug/net10.0/DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/obj/Debug/net10.0/DemoApp.AssemblyInfoInputs.cache
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/obj/Debug/net10.0/DemoApp.AssemblyInfo.cs
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/obj/Debug/net10.0/DemoApp.csproj.CoreCompileInputs.cache
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/obj/Debug/net10.0/DemoApp.dll
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/obj/Debug/net10.0/refint/DemoApp.dll
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/obj/Debug/net10.0/DemoApp.pdb
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/obj/Debug/net10.0/DemoApp.genruntimeconfig.cache
+/home/cdac/Course/DotNet/Fundamentals/Basics/UserDefTypeTest/DemoApp1/obj/Debug/net10.0/ref/DemoApp.dll
