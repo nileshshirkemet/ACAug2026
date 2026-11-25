@@ -1,0 +1,18 @@
+    1  ls
+    2  cd DotNet/
+    3  ls
+    4  cd Fundamentals/
+    5  ls
+    6  cd Inheritance/ClassTypeTest/DemoApp1/
+    7  dotnet run
+    8  dotnet run 5
+    9  dotnet run 2
+   10  dotnet run 5
+   11  dotnet run 2
+   12  cd ..
+   13  mkdir DemoApp2
+   14  cd DemoApp2
+   15  cp ../DemoApp1/DemoApp.csproj .
+   16  code .
+   17  dotnet run
+   18  history > ~/Course/Commands/DotNet/Fundamentals/cmd25-11-26morning.txt 
