@@ -1,0 +1,11 @@
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/bin/Debug/net10.0/Banking.deps.json
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/bin/Debug/net10.0/Banking.dll
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/bin/Debug/net10.0/Banking.pdb
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/obj/Debug/net10.0/Banking.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/obj/Debug/net10.0/Banking.AssemblyInfoInputs.cache
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/obj/Debug/net10.0/Banking.AssemblyInfo.cs
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/obj/Debug/net10.0/Banking.csproj.CoreCompileInputs.cache
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/obj/Debug/net10.0/Banking.dll
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/obj/Debug/net10.0/refint/Banking.dll
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/obj/Debug/net10.0/Banking.pdb
+/home/cdac/Course/DotNet/Fundamentals/Inheritance/InterfaceTest/BankLib/obj/Debug/net10.0/ref/Banking.dll
