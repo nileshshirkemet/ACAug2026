@@ -1,0 +1,28 @@
+    1  clear
+    2  dotnet run
+    3  ildasm bin/Debug/net10.0/DemoApp.dll > DemoApp.il
+    4  dotnet run
+    5  cd ../..
+    6  mkdir InterfaceTest
+    7  cd InterfaceTest/
+    8  dotnet new console -n DemoApp -o DemoApp1
+    9  ls
+   10  cd DemoApp1/
+   11  ls
+   12  code .
+   13  dotnet run
+   14  cd ..
+   15  dotnet new classlib -n Banking -o BankLib
+   16  cd BankLib/
+   17  ls
+   18  code .
+   19  dotnet run
+   20  donet build
+   21  dotnet build
+   22  cd ../DemoApp1/
+   23  code .
+   24  code ..
+   25  ls bin/Debug/net10.0/*.dll
+   26  dotnet run
+   27  ls ./bin/Debug/net10.0/*.dll
+   28  history > ~/Course/Commands/DotNet/Fundamentals/cmd25-11-26evening.txt 

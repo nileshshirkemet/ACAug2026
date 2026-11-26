@@ -1,0 +1,16 @@
+    1  clear
+    2  cd Inheritance/InterfaceTest/DemoApp1/
+    3  dotnet run
+    4  dotnet run 8000
+    5  dotnet run 18000
+    6  dotnet run 2OOO
+    7  cd ..
+    8  ls
+    9  cd ..
+   10  ls
+   11  cd Commands/
+   12  ls
+   13  cd DotNet/
+   14  cd Fundamentals/
+   15  ls
+   16  history > cmd26-11-26morning.txt 

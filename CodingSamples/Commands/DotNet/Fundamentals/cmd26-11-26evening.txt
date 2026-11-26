@@ -1,0 +1,16 @@
+    1  dotnet run 5000
+    2  cd DemoApp1/
+    3  dotnet run 5000
+    4  dotnet run
+    5  cd ..
+    6  dotnet new classlib -n Taxation -o TaxLib
+    7  dotnet new console -n DemoApp -o DemoApp2 --use-program-main
+    8  cd DemoApp2/
+    9  dotnet add reference ../TaxLib/
+   10  code ..
+   11  code ../TaxLib/ .
+   12  cd ..
+   13  ls
+   14  cd Commands/DotNet/Fundamentals/
+   15  ls
+   16  history >cmd26-11-26evening.txt 
